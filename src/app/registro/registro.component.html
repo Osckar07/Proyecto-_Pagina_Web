@@ -1,0 +1,32 @@
+<!-- Banner -->
+<div class="banner banner-second">
+    <div class="banner-container ">
+        <h1>Fashion Wear</h1>
+        <h2>la numero uno en ropa</h2>
+    </div>
+</div>
+
+<div class="container">
+    <div class="columns">
+        
+        <div class="column">
+            <h2 class="is-size-4">Registro </h2>
+            <form action="#" class="form-control">
+                <input type="text" [(ngModel)]="Nombre" name="Nombre" placeholder="Nombre" class="form-control-field error" required>
+                
+                <input type="email" [(ngModel)]="email" name="Email" placeholder="Email" class="form-control-field" required>
+
+                <input type="password"[(ngModel)]="password" name="password" placeholder="contraseña" class="form-control-field" required>
+
+                <input type="password" [(ngModel)]="password2" name="password2" placeholder="Confirma tu contraseña" class="form-control-field" required>
+                    
+                <button class="btn btn-default btn-primary" (click)="Registro()">Crear cuenta</button>
+                
+                <p class="text-center text-muted">"Al crear una cuenta, aceptas nuestras <a href="https://drive.google.com/file/d/1aVfiWpdcIGmRk2BBzaCre8o0orYsiJxP/view?usp=sharing" target="_blank">Condiciones de  Uso</a> 
+                    y admites haber leído nuestro <a href="https://drive.google.com/file/d/1YW9VJPQRo7QM1xzLPH6YY-s1N2eKFxni/view?usp=sharing" target="_blank">Aviso de Privacidad.</a>"</p>
+            </form>
+        </div>
+    </div>
+</div>
+
+

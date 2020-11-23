@@ -1,0 +1,29 @@
+ <!-- Banner -->
+ <div class="banner banner-second">
+    <div class="banner-container ">
+        <h1>Fashion Wear</h1>
+        <h2>la numero uno en ropa</h2>
+    </div>
+</div>
+
+<div class="container">
+    <div class="columns">
+        <div class="column">
+            <h2 class="is-size-4">Iniciar sesión</h2>
+            <form action="#" class="form-control">
+               
+
+                <input type="email" [(ngModel)]="email" name="email" placeholder="Email" class="form-control-field error" required>
+
+                <input type="password" [(ngModel)]="password" name="contraseña" placeholder="contraseña" class="form-control-field" required>
+
+                <button class="btn btn-default btn-primary" (click)="login()" >Iniciar sesión </button>
+                <button class="btn btn-default btn-primary" [routerLink]="['/registro']"style="margin-left:20px"
+                >Registrate</button>
+                
+            </form>
+        </div>
+      
+    </div>
+</div>
+
