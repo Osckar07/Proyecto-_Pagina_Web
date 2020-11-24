@@ -12,4 +12,8 @@ export class Comprarproducto1Component implements OnInit {
   ngOnInit(): void {
   }
 
+  openSnackBar(){
+    alert("¡SU COMPRA SE REALIZÓ CORRECTAMENTE!");
+
+  }
 }
